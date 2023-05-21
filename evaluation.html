@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Untitled 1</title>
+<link href="mesStyles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<form method="post" action="evaluation.php" onsubmit="return verif2()">
+	<fieldset name="Group1">
+	<legend>Evaluation d’un modèle :</legend>
+	N° Permis:&nbsp;&nbsp;&nbsp; 
+	<input name="numPermis" id="numPermis" type="text" class="input">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	Modèle testé:&nbsp;&nbsp;&nbsp; <select name="S1" id="S1">
+	<option>Choisir un modèle</option>
+	<option value="15">WALLIS IRIS</option>
+	<option value="26">WALLIS 619</option>
+	<option value="38">WALLIS 216</option>
+	</select><br><br><br><br><br><br>Notes attribuées:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	Sécurité: <input class="note input" name="secur" id="secur" type="text">&nbsp;&nbsp;&nbsp; 
+	Conduite: <input class="note input" name="cond" id="cond" type="text">&nbsp;&nbsp;&nbsp; 
+	Confort: <input class="note input" name="conf" id="conf" type="text"><br><br>Je ne suis pas 
+	un robot: <input name="robot" id="robot" type="checkbox" value="1"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input name="Reset1" type="reset" value="Annuler">&nbsp;&nbsp;&nbsp;
+	<input name="Submit1" type="submit" value="Valider"></fieldset></form>
+
+<script src="controles.js" language="JavaScript"></script>
+
+</body>
+
+</html>

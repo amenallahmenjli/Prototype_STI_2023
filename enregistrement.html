@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="en-us" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Untitled 1</title>
+<link href="mesStyles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+</style>
+</head>
+
+<body>
+
+<form method="post" onsubmit="return verif1();" action="enregistrement.php">
+	<fieldset name="Group1">
+	<legend>Enregistrement d’un testeur :</legend>
+	N° Permis:&nbsp; <input name="numPermis" id="numPermis" type="text" class="input"><br><br>Nom:
+	<input name="nom" id="nomPilote" type="text" class="input"><br><br>Prénom:
+	<input name="prenom" id="prenomPilote" type="text" class="input"><br><br>Genre:
+	<input name="R1" class="R1" type="radio" value="F">Féminin
+	<input name="R1" type="radio" class="R1" value="M">Masculin<br><br>Ville:
+	<select name="S1" id="S1">
+	<option>Choisir une ville</option>
+	<option value="1">Gafsa</option>
+	<option value="2">Kef</option>
+	<option value="3">Sousse</option>
+	<option value="4">Tunis</option>
+	</select><br><br><br><br><br><br><br><input name="Reset1" type="reset" value="Annuler">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input name="Submit1" type="submit" value="Ajouter"></fieldset></form>
+
+
+<script src="controles.js" language="JavaScript"></script>
+</body>
+
+</html>

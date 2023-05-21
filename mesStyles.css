@@ -1,0 +1,33 @@
+﻿header{
+	background-color: #11abf33f;
+}
+
+nav {
+	background-color: #d9f0f5;
+	width: 30%;
+	height: 480px;
+	float: left;
+}
+section {
+	background-color: #eafafa;
+	width: 70%;
+	height: 480px;
+	float: left;
+}
+.input{
+	background-color: #FFFF00;
+	font-size: 16px;
+}
+iframe {
+	width: 99%;
+	height: 470px;
+}
+header {
+	text-align: center;
+}
+#titre:hover {
+	color:blue;
+}
+.note {
+	width: 50px;
+}
